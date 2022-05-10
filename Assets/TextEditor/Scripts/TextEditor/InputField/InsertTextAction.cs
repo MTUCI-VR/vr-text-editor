@@ -1,4 +1,5 @@
 ﻿using TextEditor.Scripts.ActionRecorder;
+using TMPro;
 
 namespace TextEditor.Scripts.TextEditor.InputField
 {
@@ -27,8 +28,7 @@ namespace TextEditor.Scripts.TextEditor.InputField
         public override void Redo()
         {
             InputField.InsertText(InputField.caretPosition, _deletedText);
-
-            InputField.caretPosition += _deletedText.Length;
+            InputField.caretPosition += _textLength;
         }
     }
 }
