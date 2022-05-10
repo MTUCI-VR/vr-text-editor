@@ -5,49 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0551af1a-04c3-4ad2-adba-40d794004474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.vr-text-editor/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.vr-text-editor/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Scripts/Ui.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Scripts/Ui/ButtonExtended.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Scripts/Ui/ButtonExtended.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Icons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Icons/RedoIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Icons/RedoIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Icons/UndoIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Icons/UndoIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded10px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded10px.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded10px@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded10px@2x.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded10px@4x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded10px@4x.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded20px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded20px.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded20px@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded20px@2x.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded20px@4x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded20px@4x.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded40px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded40px.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded40px@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded40px@2x.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded40px@4x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded40px@4x.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded5px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded5px.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded5px@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded5px@2x.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded5px@4x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/General/Sprites/Rounded/Rounded5px@4x.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/Prefabs/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/Prefabs/UI/IconButton.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/Prefabs/UI/IconButton.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextEditor/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextEditor/Prefabs/Player.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/InputFieldUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/InputFieldUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/TextActions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/TextActions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-text-editor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-text-editor/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextEditor/Scenes/MainScene/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextEditor/Scenes/MainScene/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/CustomInputField.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/CustomInputField.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/InsertTextAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/InsertTextAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/MoveCaretAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/MoveCaretAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/TextEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/TextEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +35,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Selectable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/68055EC4-167C-45D8-8806-6B22AE4EA629/a4/1a858582/CanvasGroup.cs" root0="SKIP_HIGHLIGHTING" />
@@ -81,15 +50,18 @@
       <option value="$PROJECT_DIR$/Assets/_Development/Jayzzer/Scripts/ActionRecorder.cs" />
       <option value="$PROJECT_DIR$/Assets/_Development/Jayzzer/Scripts/DeleteTextAction.cs" />
       <option value="$PROJECT_DIR$/Assets/_Development/Jayzzer/Scripts/TextEditor.cs" />
-      <option value="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/TextEditor.cs" />
-      <option value="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/DeleteTextAction.cs" />
-      <option value="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/InsertTextAction.cs" />
-      <option value="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/MoveCaretAction.cs" />
       <option value="$PROJECT_DIR$/Assets/TextEditor/Scripts/ActionRecorder/ActionBase.cs" />
       <option value="$PROJECT_DIR$/Assets/TextEditor/Scripts/ActionRecorder/ActionRecorder.cs" />
-      <option value="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/CustomInputField.cs" />
       <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Selectable.cs" />
       <option value="$PROJECT_DIR$/Assets/TextEditor/General/Scripts/Ui/ButtonExtended.cs" />
+      <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_InputField.cs" />
+      <option value="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/InputFieldUtils.cs" />
+      <option value="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/TextActions.cs" />
+      <option value="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/TextEditor.cs" />
+      <option value="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/InsertTextAction.cs" />
+      <option value="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/DeleteTextAction.cs" />
+      <option value="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/CustomInputField.cs" />
+      <option value="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/MoveCaretAction.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="286hYC6wxewCv0aZQktEnIAx3TB" />
@@ -136,7 +108,10 @@
       <updated>1650543006472</updated>
       <workItem from="1650543007742" duration="13539000" />
       <workItem from="1650642301164" duration="11074000" />
-      <workItem from="1651590782681" duration="2482000" />
+      <workItem from="1651590782681" duration="3074000" />
+      <workItem from="1651782282310" duration="5341000" />
+      <workItem from="1651850392335" duration="3402000" />
+      <workItem from="1652209856474" duration="4851000" />
     </task>
     <servers />
   </component>

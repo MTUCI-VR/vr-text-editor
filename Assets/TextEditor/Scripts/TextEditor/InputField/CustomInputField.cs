@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -10,6 +11,13 @@ namespace TextEditor.Scripts.TextEditor.InputField
 
         private readonly Event _processingEvent = new();
         private readonly ActionRecorder.ActionRecorder _actionRecorder = new();
+
+        #endregion
+
+        #region Events
+
+        public event Action<Vector2> OnSelectedText;
+        public event Action OnUnselectedText;
 
         #endregion
 
@@ -45,8 +53,7 @@ namespace TextEditor.Scripts.TextEditor.InputField
 
         public bool EnterKey(Event keyEvent)
         {
-            var editState = KeyPressed(keyEvent);
-            return editState != EditState.Finish;
+            return ProcessKeyDown(keyEvent);
         }
 
         public void InsertText(int offset, string textValue)
@@ -57,6 +64,28 @@ namespace TextEditor.Scripts.TextEditor.InputField
         public void DeleteText(int offset, int length)
         {
             text = text.Remove(offset, length);
+        }
+
+        public override void OnPointerDown(PointerEventData eventData)
+        {
+            var initialCaretPosition = caretPosition;
+
+            base.OnPointerDown(eventData);
+
+            if (caretPosition != initialCaretPosition)
+            {
+                RecordMoveCaretAction(initialCaretPosition);
+            }
+
+            OnUnselectedText?.Invoke();
+        }
+
+        public override void OnPointerUp(PointerEventData eventData)
+        {
+            base.OnPointerUp(eventData);
+
+            if (m_CaretPosition == m_CaretSelectPosition) return;
+            OnSelectedText?.Invoke(InputFieldUtils.GetCaretCanvasPosition(m_TextComponent, m_CaretSelectPosition));
         }
 
         #endregion
@@ -97,21 +126,23 @@ namespace TextEditor.Scripts.TextEditor.InputField
                 case KeyCode.RightArrow:
                 case KeyCode.DownArrow:
                 case KeyCode.UpArrow:
-                    var moveCaretAction = new MoveCaretAction(this, caretPosition);
-                    _actionRecorder.Record(moveCaretAction);
+                    RecordMoveCaretAction(caretPosition);
+
                     break;
                 case KeyCode.None:
                 {
                     var enterKeyAction = new InsertTextAction(this, 1);
                     _actionRecorder.Record(enterKeyAction);
+
                     break;
                 }
             }
 
-            Debug.Log("cleared");
+            OnUnselectedText?.Invoke();
+
             _actionRecorder.ClearRedo();
 
-            return EnterKey(keyEvent);
+            return KeyPressed(keyEvent) == EditState.Continue;
         }
 
         private bool ProcessEvents()
@@ -182,6 +213,12 @@ namespace TextEditor.Scripts.TextEditor.InputField
             return Application.isEditor
                 ? isCtrlPressed && isShiftPressed && keyEvent.keyCode == KeyCode.R
                 : isOnlyCtrlPressed && keyEvent.keyCode == KeyCode.R;
+        }
+
+        private void RecordMoveCaretAction(int previousPosition)
+        {
+            var moveCaretAction = new MoveCaretAction(this, previousPosition);
+            _actionRecorder.Record(moveCaretAction);
         }
 
         #endregion
