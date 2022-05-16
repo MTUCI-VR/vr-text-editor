@@ -68,7 +68,7 @@ public class Logger : Singleton<Logger>
 
     public void PushText(string text)
     {
-        debugAreaText.text += $"[{DateTime.Now.ToString("HH:mm:ss.fff")}]: {text}";
+        debugAreaText.text += text;
     }
 
     public void SetText(string text)
