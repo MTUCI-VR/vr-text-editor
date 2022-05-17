@@ -7,18 +7,32 @@ namespace SymbolTable
 {
     public class FillingTable : MonoBehaviour
     {
+        #region Fields
+
         [SerializeField] private SymbolTableSO symbolTable;
         [SerializeField] private GameObject rowSlotPrefab;
         [SerializeField] private Transform content;
 
         private List<RowSlot> _rows = new List<RowSlot>();
 
+        #endregion
+
+        #region Events
+
         public UnityEvent<List<RowSlot>> OnUpdateTable;
+
+        #endregion
+
+        #region LifeCycle
 
         private void Start()
         {
             Filling(symbolTable);
         }
+
+        #endregion
+
+        #region PublicMethods
 
         [ContextMenu("Filling")]
         public void Filling(SymbolTableSO symbols)
@@ -41,13 +55,6 @@ namespace SymbolTable
             OnUpdateTable?.Invoke(_rows);
         }
 
-        private void CreateRows(int count = 1)
-        {
-            for (int i = 0; i < count; i++)
-            {
-                var rowSlot = Instantiate(rowSlotPrefab, content).GetComponent<RowSlot>();
-                _rows.Add(rowSlot);
-            }
-        }
+        #endregion
     }
 }

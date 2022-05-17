@@ -8,9 +8,15 @@ namespace SymbolTable
 {
     public class SymbolSlot : MonoBehaviour
     {
+        #region Fields
+
         [SerializeField] private TextMeshProUGUI symbolText;
         [SerializeField] private Image fonImage;
         [SerializeField] private Animator animator;
+
+        #endregion
+
+        #region Properties
 
         public Image FonImage
         {
@@ -24,23 +30,32 @@ namespace SymbolTable
         {
             get
             {
-                animator.SetTrigger("Selected");     
+                animator.SetTrigger("Selected");
                 return symbolText.text;
             }
         }
+
+        #endregion
+
+        #region LifeCycle
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (!other.CompareTag("Player"))
+                return;
+
+            Logger.Instance.PushText(Symbol);
+        }
+
+        #endregion
+
+        #region PublicMethods
 
         public void Initialize(string symbol)
         {
             symbolText.text = symbol;
         }
 
-        private void OnTriggerEnter(Collider other)
-        {
-            if(!other.CompareTag("Player"))
-                return;
-
-            Logger.Instance.PushText(Symbol);
-         //   var b = Symbol; 
-        }
+        #endregion
     }
 }

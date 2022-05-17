@@ -6,9 +6,15 @@ namespace SymbolTable
 {
     public class TableController : MonoBehaviour
     {
+        #region Fields
+
         [SerializeField] private SwitchRow switchRow;
 
         private RowSlot _currentRow;
+
+        #endregion
+
+        #region LifeCycle
 
         private void OnEnable()
         {
@@ -27,23 +33,9 @@ namespace SymbolTable
             }
         }
 
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.A))
-            {
-                GetSymbol(0);
-            }
+        #endregion
 
-            if (Input.GetKeyDown(KeyCode.S))
-            {
-                GetSymbol(1);
-            }
-
-            if (Input.GetKeyDown(KeyCode.D))
-            {
-                GetSymbol(2);
-            }
-        }
+        #region PublicMethods
 
         public string GetSymbol(int index)
         {
@@ -67,9 +59,15 @@ namespace SymbolTable
             Logger.Instance.PushText(_currentRow.GetSymbol(index));
         }
 
+        #endregion
+
+        #region PrivateMethods
+
         private void OnSelectedRow(RowSlot rowSlot)
         {
             _currentRow = rowSlot;
         }
+
+        #endregion
     }
 }

@@ -7,22 +7,31 @@ namespace SymbolTable
 {
     public class SwitchRow : MonoBehaviour
     {
+        #region Fields
+
         [SerializeField] private FillingTable fillingTable;
 
         private List<RowSlot> _rows = new List<RowSlot>();
         private int _currentSelectRow = -1;
 
+        #endregion
+
+        #region Events
+
         public UnityEvent<RowSlot> OnSelectedRow;
+
+        #endregion
+
+        #region LifeCycle
 
         private void Awake()
         {
             fillingTable.OnUpdateTable.AddListener(OnUpdateTable);
         }
 
-        private void OnUpdateTable(List<RowSlot> rows)
-        {
-            _rows = rows;
-        }
+        #endregion
+
+        #region PublicMethods
 
         public void Switch(int index)
         {
@@ -60,5 +69,16 @@ namespace SymbolTable
             var nextIndex = (_currentSelectRow + 1) % _rows.Count;
             Switch(nextIndex);
         }
+
+        #endregion
+
+        #region PrivateMethods
+
+        private void OnUpdateTable(List<RowSlot> rows)
+        {
+            _rows = rows;
+        }
+
+        #endregion
     }
 }

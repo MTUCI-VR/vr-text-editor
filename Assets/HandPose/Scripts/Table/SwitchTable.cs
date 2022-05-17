@@ -6,11 +6,17 @@ namespace SymbolTable
 {
     public class SwitchTable : MonoBehaviour
     {
+        #region Fields
+
         [SerializeField] private FillingTable fillingTable;
         [SerializeField] private SymbolTableSO[] symbolTabls;
         [SerializeField] private Animator animator;
 
         private int _currentTableIndex = 0;
+
+        #endregion
+
+        #region PyblicMethods
 
         [ContextMenu("Switch")]
         public void Switch()
@@ -20,5 +26,6 @@ namespace SymbolTable
             fillingTable.Filling(symbolTabls[_currentTableIndex]);
         }
 
+        #endregion
     }
 }
