@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0551af1a-04c3-4ad2-adba-40d794004474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/InputFieldUtils.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/InputFieldUtils.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/TextActions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/TextActions.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-text-editor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-text-editor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextEditor/Prefabs/UI/TextEditor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextEditor/Prefabs/UI/TextEditor.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextEditor/Scenes/MainScene/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextEditor/Scenes/MainScene/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/CustomInputField.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/CustomInputField.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/InsertTextAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/InsertTextAction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/MoveCaretAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/MoveCaretAction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/TextEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/TextEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +29,10 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Selectable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Selectable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/68055EC4-167C-45D8-8806-6B22AE4EA629/a4/1a858582/CanvasGroup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -64,6 +58,12 @@
       <option value="$PROJECT_DIR$/Assets/TextEditor/Scripts/TextEditor/InputField/MoveCaretAction.cs" />
     </changedPaths>
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="kjk8em1v" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="286hYC6wxewCv0aZQktEnIAx3TB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -74,6 +74,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="rider.run.widget.enabled.cache" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -112,12 +113,15 @@
       <workItem from="1651782282310" duration="5341000" />
       <workItem from="1651850392335" duration="3402000" />
       <workItem from="1652209856474" duration="4851000" />
+      <workItem from="1653059817020" duration="32000" />
+      <workItem from="1653060317026" duration="532000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,7 +134,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
