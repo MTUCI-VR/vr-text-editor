@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace SymbolTable
+namespace GestureInput.SymbolTable
 {
     public class TableController : MonoBehaviour
     {

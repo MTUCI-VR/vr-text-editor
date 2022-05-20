@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace SymbolTable
+namespace GestureInput.SymbolTable
 {
     public class RowSlot : MonoBehaviour
     {
@@ -17,7 +17,7 @@ namespace SymbolTable
 
         #region PublicMethods
 
-        public void Initialize(string[] symbols)
+        public void Initialize(List<Symbol> symbols)
         {
             FillingRow(symbols);
         }
@@ -40,7 +40,8 @@ namespace SymbolTable
 
             foreach (var symbol in _symbols)
             {
-                symbol.FonImage.color = Color.black;
+                var cuurentColor = symbol.FonImage.color;
+                symbol.FonImage.color = new Color(cuurentColor.r, cuurentColor.g, cuurentColor.b, 1);
             }
         }
 
@@ -51,7 +52,8 @@ namespace SymbolTable
 
             foreach (var symbol in _symbols)
             {
-                symbol.FonImage.color = Color.gray;
+                var cuurentColor = symbol.FonImage.color;
+                symbol.FonImage.color = new Color(cuurentColor.r, cuurentColor.g, cuurentColor.b, 0.3f);
             }
         }
 
@@ -59,7 +61,7 @@ namespace SymbolTable
 
         #region PrivateMethods
 
-        private void FillingRow(string[] symbols)
+        private void FillingRow(List<Symbol> symbols)
         {
             _symbols.Clear();
 
@@ -70,6 +72,8 @@ namespace SymbolTable
 
                 _symbols.Add(symbolSlot);
             }
+
+            UnSelected();
         }
 
         #endregion

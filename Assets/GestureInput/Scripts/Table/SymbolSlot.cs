@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace SymbolTable
+namespace GestureInput.SymbolTable
 {
     public class SymbolSlot : MonoBehaviour
     {
@@ -51,9 +51,10 @@ namespace SymbolTable
 
         #region PublicMethods
 
-        public void Initialize(string symbol)
+        public void Initialize(Symbol symbol)
         {
-            symbolText.text = symbol;
+            symbolText.text = symbol.symbol;
+            FonImage.color = symbol.colorFon;
         }
 
         #endregion

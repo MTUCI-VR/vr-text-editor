@@ -1,21 +1,44 @@
+using System.Collections.Generic;
 using UnityEngine;
 
-namespace SymbolTable
+namespace GestureInput.SymbolTable
 {
-    [System.Serializable]
-    public struct SymbolRows
+    public enum SymbolType
     {
-        public string[] symbols;
+        Space,
+        Eraser
+    }
+
+    [System.Serializable]
+    public class Symbol
+    {
+        public string symbol;
+        public Color colorFon;
+        public bool isCustom = false;
+
+        public SymbolType symbolType;
+        public Sprite sprite;
+    }
+
+    [System.Serializable]
+    public class Row 
+    {
+        public List<Symbol> symbols;
+        public bool shoowRow = false;
     }
 
     [CreateAssetMenu(menuName = "Table", fileName = "SymbolTable")]
     public class SymbolTableSO : ScriptableObject
     {
-        [SerializeField] private SymbolRows[] rows;
+        [SerializeField] private List<Row> rows;
 
-        public SymbolRows[] Rows
+        public List<Color> colors = new List<Color>();
+        public bool isShowColor = false;
+
+        public List<Row> Rows
         {
             get { return rows; }
+            set { rows = value; }
         }
     }
 }

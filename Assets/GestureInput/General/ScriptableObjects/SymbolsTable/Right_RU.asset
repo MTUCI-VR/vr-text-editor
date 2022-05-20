@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01e759071cad5347a03de26d46bc213, type: 3}
+  m_Name: Right_RU
+  m_EditorClassIdentifier: 
+  rows:
+  - symbols:
+    - symbol: 7
+      colorFon: {r: 0.9019608, g: 0.40392157, b: 0.40392157, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: 8
+      colorFon: {r: 0.88235295, g: 0.37254903, b: 0.25490198, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: 9
+      colorFon: {r: 0.9607843, g: 0.8039216, b: 0.4745098, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: 0
+      colorFon: {r: 0.6117647, g: 0.84313726, b: 0.5803922, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: '-'
+      colorFon: {r: 0.96862745, g: 0.56078434, b: 0.7019608, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: +
+      colorFon: {r: 0.3882353, g: 0.8039216, b: 0.85490197, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    shoowRow: 1
+  - symbols:
+    - symbol: "\u0413"
+      colorFon: {r: 0.9019608, g: 0.40392157, b: 0.40392157, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: "\u0428"
+      colorFon: {r: 0.88235295, g: 0.37254903, b: 0.25490198, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: "\u0429"
+      colorFon: {r: 0.9607843, g: 0.8039216, b: 0.4745098, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: "\u0417"
+      colorFon: {r: 0.6117647, g: 0.84313726, b: 0.5803922, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: "\u0425"
+      colorFon: {r: 0.96862745, g: 0.56078434, b: 0.7019608, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: "\u042A"
+      colorFon: {r: 0.3882353, g: 0.8039216, b: 0.85490197, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    shoowRow: 1
+  - symbols:
+    - symbol: "\u041E"
+      colorFon: {r: 0.9019608, g: 0.40392157, b: 0.40392157, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: "\u041B"
+      colorFon: {r: 0.88235295, g: 0.37254903, b: 0.25490198, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: "\u0414"
+      colorFon: {r: 0.9607843, g: 0.8039216, b: 0.4745098, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: "\u0416"
+      colorFon: {r: 0.6117647, g: 0.84313726, b: 0.5803922, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: "\u042D"
+      colorFon: {r: 0.96862745, g: 0.56078434, b: 0.7019608, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: "\u042A"
+      colorFon: {r: 0.3882353, g: 0.8039216, b: 0.85490197, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    shoowRow: 1
+  - symbols:
+    - symbol: "\u042C"
+      colorFon: {r: 0.9019608, g: 0.40392157, b: 0.40392157, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: "\u0411"
+      colorFon: {r: 0.88235295, g: 0.37254903, b: 0.25490198, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: "\u042E"
+      colorFon: {r: 0.9607843, g: 0.8039216, b: 0.4745098, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: ','
+      colorFon: {r: 0.6117647, g: 0.84313726, b: 0.5803922, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: .
+      colorFon: {r: 0.96862745, g: 0.56078434, b: 0.7019608, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    - symbol: '?'
+      colorFon: {r: 0.3882353, g: 0.8039216, b: 0.85490197, a: 1}
+      isCustom: 0
+      symbolType: 0
+      sprite: {fileID: 0}
+    shoowRow: 1
+  colors:
+  - {r: 0.9019608, g: 0.40392157, b: 0.40392157, a: 1}
+  - {r: 0.88235295, g: 0.37254903, b: 0.25490198, a: 1}
+  - {r: 0.9607843, g: 0.8039216, b: 0.4745098, a: 1}
+  - {r: 0.6117647, g: 0.84313726, b: 0.5803922, a: 1}
+  - {r: 0.96862745, g: 0.56078434, b: 0.7019608, a: 1}
+  - {r: 0.3882353, g: 0.8039216, b: 0.85490197, a: 1}
+  isShowColor: 0

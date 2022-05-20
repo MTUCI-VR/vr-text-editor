@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace SymbolTable
+namespace GestureInput.SymbolTable
 {
     public class FillingTable : MonoBehaviour
     {

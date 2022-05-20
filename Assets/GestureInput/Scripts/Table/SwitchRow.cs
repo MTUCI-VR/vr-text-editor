@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace SymbolTable
+namespace GestureInput.SymbolTable
 {
     public class SwitchRow : MonoBehaviour
     {
