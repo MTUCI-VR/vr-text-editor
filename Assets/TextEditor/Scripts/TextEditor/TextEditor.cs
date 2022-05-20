@@ -56,7 +56,7 @@ namespace TextEditor.Scripts.TextEditor
 
         private void ShowTextActions(Vector2 showPosition)
         {
-            _textActionsTransform.localPosition = showPosition + new Vector2(0, 10);
+            _textActionsTransform.localPosition = showPosition - new Vector2(0, 80);
             textActions.gameObject.SetActive(true);
         }
 
