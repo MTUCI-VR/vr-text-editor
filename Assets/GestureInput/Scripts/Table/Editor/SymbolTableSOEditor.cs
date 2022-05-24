@@ -81,8 +81,6 @@ namespace GestureInput.SymbolTable
                             symbol.sprite = EditorGUILayout.ObjectField("Картинка", symbol.sprite, typeof(Sprite), true) as Sprite;
                         }
 
-                        // symbol.colorFon = EditorGUILayout.ColorField(symbol.colorFon);
-
                         EditorGUILayout.EndVertical();
                         EditorGUILayout.Space();
                     }
